@@ -18,14 +18,32 @@ body {
 }
 
 header {
-    background: #111;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    position: fixed;
+    background-color: #022527dc;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px 20px;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img {
+    width: 49px;
+    height: 49px;
 }
 
 header h1 {
-    text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: left;
 }
 
 nav ul {
@@ -43,10 +61,11 @@ nav a {
 }
 
 .hero {
-    background: #007bff;
+    background: #6c9c8e;
     color: white;
     padding: 60px 20px;
     text-align: center;
+    margin-top: 80px; 
 }
 
 .hero h2 {
@@ -60,7 +79,7 @@ nav a {
 
 .btn {
     background: white;
-    color: #007bff;
+    color: #022527dc;
     padding: 10px 20px;
     display: inline-block;
     margin-top: 20px;
@@ -83,17 +102,18 @@ nav a {
 }
 
 .post h4 a {
-    color: #007bff;
+    color: #6c9c8e;
     text-decoration: none;
 }
 
-footer {
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+.post {
+    margin-bottom: 30px;
 }
-.post{
-    margin-bottom:30px;
+
+footer {
+    background: #022527dc;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
+    text-align: center;
 }

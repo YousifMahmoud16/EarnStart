@@ -70,11 +70,10 @@ footer p {
 
 .navbar {
     background-color: #022527;
-    padding: 10px 30px;
+    padding: 15px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #e0e0e0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     position: fixed;
     top: 0;

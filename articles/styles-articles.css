@@ -117,5 +117,12 @@ footer p {
     color: #0077cc;
 }
 main{
-    margin-top: 50px;
+    margin-top: 75px;
+}
+.site-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f3f3f3;
+    margin-left: 8px;
 }

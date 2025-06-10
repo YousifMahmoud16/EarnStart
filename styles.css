@@ -141,3 +141,10 @@ footer {
 #text{
     margin-bottom: 30px;
 }
+.site-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f3f3f3;
+    margin-left: 8px;
+}

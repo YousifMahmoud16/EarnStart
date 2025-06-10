@@ -1,0 +1,116 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    position: fixed;
+    background-color: #022527dc;
+    color: #fff;
+    padding: 9.5px 20px;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 32px;
+}
+
+.logo-img {
+    width: 49px;
+    height: 49px;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 10px;
+    padding-left: 2px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+.articles {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.articles h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.article-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 1rem;
+    color: #666;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #A3D55B;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background: #022527dc;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 0px;
+    text-align: center;
+}
+.nav-links{
+    margin-bottom: 5px;
+}
+main{margin-top: 55px;}

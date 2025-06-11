@@ -125,3 +125,35 @@ main{margin-top: 55px;}
     color: #f3f3f3;
     margin-left: 8px;
 }
+.article-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.article-card img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.article-card .article-info h2 {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+}
+
+.article-card .article-info p {
+    margin: 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+.thumbnail {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}

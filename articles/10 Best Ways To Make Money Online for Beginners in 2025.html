@@ -168,7 +168,27 @@
                 </p>
             </footer>
         </main>
+
+        <!-- Back to Top Button -->
+        <button id="backToTop" title="Back to Top">↑</button>
     </div>
+
+    <!-- Back to Top Script -->
+    <script>
+        const backToTopButton = document.getElementById("backToTop");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        backToTopButton.addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
 </body>
 
 </html>

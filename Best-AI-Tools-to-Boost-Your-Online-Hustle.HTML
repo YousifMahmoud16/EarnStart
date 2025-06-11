@@ -9,7 +9,7 @@
         content="Discover the best AI tools that can help you automate, grow, and simplify your online income journey in 2025.">
     <meta name="keywords" content="AI tools, online hustle, make money online, productivity, automation, beginners">
     <meta name="author" content="Earn Start">
-    <link rel="stylesheet" href="styles-articles.css">
+    <link rel="stylesheet" href="/Articles/styles-articles.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 </head>
 
@@ -65,13 +65,33 @@
                 <p>Notion AI enhances productivity by helping you organize your tasks, generate text, take notes, and
                     manage content in one place. It’s great for solopreneurs and content planners.</p>
             </section>
+            <footer>
+                <p><em>Follow this blog for weekly tips, beginner tutorials, and real online money guides.</em><br>
+                    <strong>Your first dollar online is closer than you think.</strong>
+                </p>
+            </footer>
         </main>
 
-        <footer>
-            <p>These tools are not just trendy — they’re practical for anyone serious about building an online income in
-                2025. Choose the ones that match your workflow and start applying them to your hustle today.</p>
-        </footer>
+        <!-- Back to Top Button -->
+        <button id="backToTop" title="Back to Top">↑</button>
     </div>
+
+    <!-- Back to Top Script -->
+    <script>
+        const backToTopButton = document.getElementById("backToTop");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        backToTopButton.addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
 </body>
 
 </html>

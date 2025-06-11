@@ -142,3 +142,20 @@ main{
     z-index: 1000;
     transition: opacity 0.3s ease;
 }
+.next-article {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.next-article a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.next-article a:hover {
+    text-decoration: underline;
+}

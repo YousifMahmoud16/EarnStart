@@ -4,33 +4,77 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Contact Us - Earn Start</title>
-    <link rel="stylesheet" href="contact-style.css" />
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>Contact - Earn Start</title>
+    <link rel="stylesheet" href="styles-about.css" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9fafb;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 80px auto;
+            padding: 40px 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgb(0 0 0 / 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-weight: 700;
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        a.email-link {
+            display: inline-block;
+            font-size: 1.2rem;
+            color: #0077cc;
+            text-decoration: none;
+            border: 2px solid #0077cc;
+            padding: 12px 24px;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+
+        a.email-link:hover {
+            background-color: #0077cc;
+            color: white;
+            box-shadow: 0 4px 10px rgb(0 119 204 / 0.3);
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                margin: 40px 15px;
+                padding: 30px 15px;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <header class="header">
         <div class="logo-container">
             <a href="/index.html"><img src="/images/favicon.ico" alt="Earn Start Logo"></a>
-            <h1>Contact Us</h1>
+            <h2>Contact Us</h2>
         </div>
     </header>
 
-    <div class="contact-container">
+    <div class="container">
         <h1>Contact Us</h1>
-        <form action="mailto:earnstartcontact@gmail.com" method="POST" enctype="text/plain">
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" required />
-
-            <label for="email">Your Email</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="message">Your Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
+        <p>If you want to get in touch, send an email to:</p>
+        <a href="mailto:earnstartcontact@gmail.com" class="email-link">earnstartcontact@gmail.com</a>
     </div>
 </body>
 

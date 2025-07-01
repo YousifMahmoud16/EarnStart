@@ -1,4 +1,6 @@
 User-agent: *
+Disallow: /articles/images/images*/  # لمنع أي مسار فيه تكرار كلمة images
+
 Allow: /
 
 Sitemap: https://earnstart.pages.dev/sitemap.xml
